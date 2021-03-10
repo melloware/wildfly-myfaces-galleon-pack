@@ -28,8 +28,8 @@
     </properties>
 
     <resources>
-        <resource-root path="wildfly-jsf-injection-23.0.0.Beta1.jar"/>
-        <resource-root path="weld-jsf-3.6.1.jar"/>
+        <artifact name="${org.wildfly:wildfly-jsf-injection}"/>
+        <artifact name="${org.jboss.weld.module:weld-jsf}"/>
     </resources>
 
     <dependencies>
