@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="myfaces">
+    <dependencies>
+        <layer name="jsf"/>
+    </dependencies>
+    <feature spec="subsystem.jsf">
+        <param name="default-jsf-impl-slot" value="myfaces-2.3.8"/>
+    </feature>
+    <packages>
+        <package name="com.sun.jsf-impl.myfaces-2.3.8"/>
+        <package name="javax.faces.api.myfaces-2.3.8"/>
+        <package name="org.apache.commons.digester"/>
+        <package name="org.jboss.as.jsf-injection.myfaces-2.3.8"/>
+    </packages>
+</layer-spec>
+
