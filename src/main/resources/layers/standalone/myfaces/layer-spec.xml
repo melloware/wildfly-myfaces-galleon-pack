@@ -4,13 +4,13 @@
         <layer name="jsf"/>
     </dependencies>
     <feature spec="subsystem.jsf">
-        <param name="default-jsf-impl-slot" value="myfaces-2.3.8"/>
+        <param name="default-jsf-impl-slot" value="myfaces"/>
     </feature>
     <packages>
         <package name="org.apache.commons.digester"/>
-        <package name="com.sun.jsf-impl.myfaces-2.3.8"/>
-        <package name="javax.faces.api.myfaces-2.3.8"/>
-        <package name="org.jboss.as.jsf-injection.myfaces-2.3.8"/>
+        <package name="com.sun.jsf-impl.myfaces"/>
+        <package name="javax.faces.api.myfaces"/>
+        <package name="org.jboss.as.jsf-injection.myfaces"/>
     </packages>
 </layer-spec>
 

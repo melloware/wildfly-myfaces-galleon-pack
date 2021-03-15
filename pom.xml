@@ -22,12 +22,11 @@
         <artifactId>jboss-parent</artifactId>
         <version>37</version>
     </parent>
-    <groupId>org.wildfly</groupId>
+    <groupId>com.melloware</groupId>
     <artifactId>wildfly-myfaces-galleon-pack</artifactId>
-    <version>1.0.0.Final-SNAPSHOT</version>
+    <version>8.0.0.Final-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Apache MyFaces JSF implementation for WildFly</name>
-
     <description>Apache MyFaces JSF implementation for WildFly</description>
 
     <licenses>

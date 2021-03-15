@@ -22,7 +22,7 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<module xmlns="urn:jboss:module:1.8" name="org.jboss.as.jsf-injection:myfaces-2.3.8">
+<module xmlns="urn:jboss:module:1.8" name="org.jboss.as.jsf-injection:myfaces">
     <properties>
         <property name="jboss.api" value="private"/>
     </properties>
@@ -33,17 +33,17 @@
     </resources>
 
     <dependencies>
-        <module name="com.sun.jsf-impl:myfaces-2.3.8"/>
+        <module name="com.sun.jsf-impl:myfaces"/>
+        <module name="javax.faces.api:myfaces"/>
         <module name="javax.api"/>
-        <module name="org.jboss.as.web-common"/>
+        <module name="javax.enterprise.api"/>
         <module name="javax.servlet.api"/>
         <module name="org.jboss.as.ee"/>
         <module name="org.jboss.as.jsf"/>
-        <module name="javax.enterprise.api"/>
+        <module name="org.jboss.as.web-common"/>
         <module name="org.jboss.logging"/>
         <module name="org.jboss.weld.core"/>
         <module name="org.wildfly.security.elytron"/>
 
-        <module name="javax.faces.api:myfaces-2.3.8"/>
     </dependencies>
 </module>
