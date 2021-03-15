@@ -38,7 +38,7 @@
         </license>
     </licenses>
     <properties>
-        <version.org.wildfly>23.0.0.Beta1</version.org.wildfly>
+        <version.org.wildfly>23.0.0.Final</version.org.wildfly>
         <version.org.wildfly.galleon-plugins>5.1.0.Final</version.org.wildfly.galleon-plugins>
         <version.org.apache.myfaces>2.3.8</version.org.apache.myfaces>
         <version.commons-digester>1.8.1</version.commons-digester>
@@ -49,7 +49,7 @@
     <dependencies>
         <dependency>
             <groupId>org.wildfly</groupId>
-            <artifactId>wildfly-galleon-pack</artifactId>
+            <artifactId>wildfly-ee-galleon-pack</artifactId>
             <version>${version.org.wildfly}</version>
             <type>zip</type>
         </dependency>
