@@ -42,8 +42,8 @@
         <version.org.apache.myfaces>2.3.8</version.org.apache.myfaces>
         <version.commons-digester>2.1</version.commons-digester>
         <version.weld-jsf>3.1.6.Final</version.weld-jsf>
-        <wildfly-extras.repo.scm.connection>git@github.com:wildfly-extras/wildfly-myfaces-galleon-pack.git</wildfly-extras.repo.scm.connection>
-        <wildfly-extras.repo.scm.url>https://github.com/wildfly-extras/wildfly-myfaces-galleon-pack</wildfly-extras.repo.scm.url>
+        <wildfly-extras.repo.scm.connection>git@github.com:melloware/wildfly-myfaces-galleon-pack.git</wildfly-extras.repo.scm.connection>
+        <wildfly-extras.repo.scm.url>https://github.com/melloware/wildfly-myfaces-galleon-pack</wildfly-extras.repo.scm.url>
     </properties>
     <dependencies>
         <dependency>
