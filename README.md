@@ -12,8 +12,34 @@ and memory usage than Mojarra as well as less bugs. See [JSF Benchmark](https://
 ## Java EE 8 Usage
 To use with Wildfly Bootable with Java EE8 you must use the `8.x` version of this feature pack based on MyFaces [2.3.x](https://myfaces.apache.org/#/core23).
 
+```xml
+<feature-packs>
+    <feature-pack>
+        <location>wildfly@maven(org.jboss.universe:community-universe)#${version.wildfly}</location>
+    </feature-pack>
+    <feature-pack>
+        <groupId>com.melloware</groupId>
+        <artifactId>wildfly-myfaces-galleon-pack</artifactId>
+        <version>8.0.0.Final</version>
+    </feature-pack>
+</feature-packs>
+```
+
 ## Jakarta EE 9 Usage
 To use with Wildfly Bootable with Jakarta EE9 you must use the `9.x` version of this feature pack based on MyFaces [3.0.x](https://myfaces.apache.org/#/core30)
+
+```xml
+<feature-packs>
+    <feature-pack>
+        <location>org.wildfly:wildfly-preview-feature-pack:${version.wildfly}</location>
+    </feature-pack>
+    <feature-pack>
+        <groupId>com.melloware</groupId>
+        <artifactId>wildfly-myfaces-galleon-pack</artifactId>
+        <version>9.0.0.Final</version>
+    </feature-pack>
+</feature-packs>
+```
 
 ## Plugin Example
 Using the plugin you must add the plugin itself and then add the `<layer>myfaces</layer>` like:
@@ -57,3 +83,6 @@ Using the plugin you must add the plugin itself and then add the `<layer>myfaces
 
 [Wildfly Faces](https://github.com/melloware/wildfly-faces) is a sample JSF application using the PrimeFaces Showcase and makes it a Wildfly Bootable application.
 It uses this plugin to use MyFaces instead of Mojarra.
+- [Wildfly Faces Java EE8](https://github.com/melloware/wildfly-faces)
+- [Wildfly Faces Jakarta EE9](https://github.com/melloware/wildfly-faces/tree/jakartaee9)
+
