@@ -24,10 +24,10 @@
     </parent>
     <groupId>com.melloware</groupId>
     <artifactId>wildfly-myfaces-galleon-pack</artifactId>
-    <version>8.0.0.Final-SNAPSHOT</version>
+    <version>9.0.0.Final-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Apache MyFaces JSF implementation for WildFly</name>
-    <description>Apache MyFaces JSF implementation for WildFly</description>
+    <name>Apache MyFaces JSF implementation for WildFly Jakarta EE9</name>
+    <description>Apache MyFaces JSF implementation for WildFly Jakarta EE9</description>
 
     <licenses>
         <license>
@@ -39,7 +39,7 @@
     <properties>
         <version.org.wildfly>23.0.0.Final</version.org.wildfly>
         <version.org.wildfly.galleon-plugins>5.1.0.Final</version.org.wildfly.galleon-plugins>
-        <version.org.apache.myfaces>2.3.8</version.org.apache.myfaces>
+        <version.org.apache.myfaces>3.0.0</version.org.apache.myfaces>
         <version.commons-digester>2.1</version.commons-digester>
         <version.weld-jsf>3.1.6.Final</version.weld-jsf>
         <wildfly-extras.repo.scm.connection>git@github.com:melloware/wildfly-myfaces-galleon-pack.git</wildfly-extras.repo.scm.connection>
@@ -48,7 +48,7 @@
     <dependencies>
         <dependency>
             <groupId>org.wildfly</groupId>
-            <artifactId>wildfly-ee-galleon-pack</artifactId>
+            <artifactId>wildfly-preview-feature-pack</artifactId>
             <version>${version.org.wildfly}</version>
             <type>zip</type>
         </dependency>
