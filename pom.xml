@@ -26,8 +26,8 @@
     <artifactId>wildfly-myfaces-galleon-pack</artifactId>
     <version>8.0.0.Final-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Apache MyFaces JSF implementation for WildFly</name>
-    <description>Apache MyFaces JSF implementation for WildFly</description>
+    <name>Apache MyFaces JSF implementation for WildFly Java EE8</name>
+    <description>Apache MyFaces JSF implementation for WildFly Java EE8</description>
 
     <licenses>
         <license>
