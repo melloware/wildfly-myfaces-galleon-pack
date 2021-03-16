@@ -1,3 +1,7 @@
+[![License](http://img.shields.io/:license-apache-yellow.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![Maven Central](https://img.shields.io/maven-central/v/com.melloware/wildfly-myfaces-galleon-pack.svg)](https://repo.maven.apache.org/maven2/com/melloware/wildfly-myfaces-galleon-pack/)
+
+
 Wildfly Bootable Apache MyFaces JSF Galleon Pack
 ==============================================================================
 
