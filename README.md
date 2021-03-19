@@ -62,7 +62,6 @@ Using the plugin you must add the plugin itself and then add the `<layer>myfaces
         <layers>
             <layer>ejb-lite</layer>
             <layer>jpa</layer>
-            <layer>jsf</layer>
             <layer>myfaces</layer>
         </layers>
         <plugin-options>
