@@ -22,7 +22,7 @@
     </licenses>
 
     <properties>
-        <version.org.wildfly>23.0.1.Final</version.org.wildfly>
+        <version.org.wildfly>23.0.2.Final</version.org.wildfly>
         <version.org.wildfly.galleon-plugins>5.1.3.Final</version.org.wildfly.galleon-plugins>
         <version.org.apache.myfaces>2.3.8</version.org.apache.myfaces>
         <version.commons-digester>2.1</version.commons-digester>
