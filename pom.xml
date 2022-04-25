@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.melloware</groupId>
     <artifactId>wildfly-myfaces-galleon-pack</artifactId>
-    <version>9.0.0.Final</version>
+    <version>9.26.0.Final</version>
     <packaging>pom</packaging>
     <name>Apache MyFaces JSF for WildFly Jakarts EE9</name>
     <description>Apache MyFaces JSF implementation for WildFly Jakarts EE9</description>
