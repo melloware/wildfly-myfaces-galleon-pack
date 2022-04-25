@@ -20,7 +20,7 @@ To use with Wildfly Bootable with Java EE8 you must use the `8.x` version of thi
     <feature-pack>
         <groupId>com.melloware</groupId>
         <artifactId>wildfly-myfaces-galleon-pack</artifactId>
-        <version>8.0.0.Final</version>
+        <version>8.26.0.Final</version>
     </feature-pack>
 </feature-packs>
 ```
@@ -36,7 +36,7 @@ To use with Wildfly Bootable with Jakarta EE9 you must use the `9.x` version of 
     <feature-pack>
         <groupId>com.melloware</groupId>
         <artifactId>wildfly-myfaces-galleon-pack</artifactId>
-        <version>9.0.0.Final</version>
+        <version>9.26.0.Final</version>
     </feature-pack>
 </feature-packs>
 ```
