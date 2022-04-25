@@ -56,7 +56,7 @@ Using the plugin you must add the plugin itself and then add the `<layer>myfaces
             <feature-pack>
                 <groupId>com.melloware</groupId>
                 <artifactId>wildfly-myfaces-galleon-pack</artifactId>
-                <version>8.0.0.Final</version>
+                <version>8.26.0.Final</version>
             </feature-pack>
         </feature-packs>
         <layers>
