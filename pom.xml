@@ -24,7 +24,7 @@
     <properties>
         <version.org.wildfly>26.1.1.Final</version.org.wildfly>
         <version.org.wildfly.galleon-plugins>5.2.11.Final</version.org.wildfly.galleon-plugins>
-        <version.org.apache.myfaces>3.0.1</version.org.apache.myfaces>
+        <version.org.apache.myfaces>3.0.2</version.org.apache.myfaces>
         <version.commons-digester>2.1</version.commons-digester>
         <version.weld-jsf>5.0.0.Final</version.weld-jsf>
         <wildfly-extras.repo.scm.connection>git@github.com:melloware/wildfly-myfaces-galleon-pack.git</wildfly-extras.repo.scm.connection>
