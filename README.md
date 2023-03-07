@@ -109,5 +109,5 @@ Using the plugin you must add the plugin itself and then add the `<layer>myfaces
 [Wildfly Faces](https://github.com/melloware/wildfly-faces) is a sample JSF application using the PrimeFaces Showcase and makes it a Wildfly Bootable application.
 It uses this plugin to use MyFaces instead of Mojarra.
 - [Wildfly Faces Java EE8](https://github.com/melloware/wildfly-faces)
-- [Wildfly Faces Jakarta EE9](https://github.com/melloware/wildfly-faces/tree/jakartaee9)
+- [Wildfly Faces Jakarta EE10](https://github.com/melloware/wildfly-faces/tree/jakartaee9)
 
