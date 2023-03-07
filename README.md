@@ -25,6 +25,19 @@ To use with Wildfly Bootable with Java EE8 you must use the `8.x` version of thi
 </feature-packs>
 ```
 
+```xml
+<feature-packs>
+    <feature-pack>
+        <location>wildfly@maven(org.jboss.universe:community-universe)#${version.wildfly}</location>
+    </feature-pack>
+    <feature-pack>
+        <groupId>com.melloware</groupId>
+        <artifactId>wildfly-myfaces-galleon-pack</artifactId>
+        <version>8.0.0.Final</version>
+    </feature-pack>
+</feature-packs>
+```
+
 ## Jakarta EE 9 Usage
 To use with Wildfly Bootable with Jakarta EE9 you must use the `9.x` version of this feature pack based on Apache MyFaces [3.0.x](https://myfaces.apache.org/#/core30)
 
@@ -37,6 +50,19 @@ To use with Wildfly Bootable with Jakarta EE9 you must use the `9.x` version of 
         <groupId>com.melloware</groupId>
         <artifactId>wildfly-myfaces-galleon-pack</artifactId>
         <version>9.26.0.Final</version>
+    </feature-pack>
+</feature-packs>
+```
+
+```xml
+<feature-packs>
+    <feature-pack>
+        <location>org.wildfly:wildfly-preview-feature-pack:${version.wildfly}</location>
+    </feature-pack>
+    <feature-pack>
+        <groupId>com.melloware</groupId>
+        <artifactId>wildfly-myfaces-galleon-pack</artifactId>
+        <version>9.0.0.Final</version>
     </feature-pack>
 </feature-packs>
 ```
