@@ -10,9 +10,8 @@
     <artifactId>wildfly-myfaces-galleon-pack</artifactId>
     <version>9.27.0.Final</version>
     <packaging>pom</packaging>
-    <name>Apache MyFaces JSF for WildFly Jakarts EE9</name>
-    <description>Apache MyFaces JSF implementation for WildFly Jakarts EE9</description>
-
+    <name>Apache MyFaces JSF for WildFly Jakarts EE10</name>
+    <description>Apache MyFaces JSF implementation for WildFly Jakarts EE10</description>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>

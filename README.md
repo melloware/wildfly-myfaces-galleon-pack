@@ -10,7 +10,20 @@ instead of the built in Mojarra implementation.  Apache MyFaces has much better 
 and memory usage than Mojarra as well as less bugs. See [JSF Benchmark](https://github.com/tandraschko/jsfbench)
 
 ## Java EE 8 Usage
-To use with Wildfly Bootable with Java EE8 you must use the `8.x` version of this feature pack based on MyFaces [2.3.x](https://myfaces.apache.org/#/core23).
+To use with Wildfly Bootable with Java EE8 you must use the `8.x` version of this feature pack based on Apache MyFaces [2.3.x](https://myfaces.apache.org/#/core23).
+
+```xml
+<feature-packs>
+    <feature-pack>
+        <location>wildfly@maven(org.jboss.universe:community-universe)#${version.wildfly}</location>
+    </feature-pack>
+    <feature-pack>
+        <groupId>com.melloware</groupId>
+        <artifactId>wildfly-myfaces-galleon-pack</artifactId>
+        <version>8.26.1.Final</version>
+    </feature-pack>
+</feature-packs>
+```
 
 ```xml
 <feature-packs>
@@ -26,7 +39,20 @@ To use with Wildfly Bootable with Java EE8 you must use the `8.x` version of thi
 ```
 
 ## Jakarta EE 9 Usage
-To use with Wildfly Bootable with Jakarta EE9 you must use the `9.x` version of this feature pack based on MyFaces [3.0.x](https://myfaces.apache.org/#/core30)
+To use with Wildfly Bootable with Jakarta EE9 you must use the `9.x` version of this feature pack based on Apache MyFaces [3.0.x](https://myfaces.apache.org/#/core30)
+
+```xml
+<feature-packs>
+    <feature-pack>
+        <location>org.wildfly:wildfly-preview-feature-pack:${version.wildfly}</location>
+    </feature-pack>
+    <feature-pack>
+        <groupId>com.melloware</groupId>
+        <artifactId>wildfly-myfaces-galleon-pack</artifactId>
+        <version>9.26.0.Final</version>
+    </feature-pack>
+</feature-packs>
+```
 
 ```xml
 <feature-packs>
@@ -56,7 +82,7 @@ Using the plugin you must add the plugin itself and then add the `<layer>myfaces
             <feature-pack>
                 <groupId>com.melloware</groupId>
                 <artifactId>wildfly-myfaces-galleon-pack</artifactId>
-                <version>8.0.0.Final</version>
+                <version>8.26.0.Final</version>
             </feature-pack>
         </feature-packs>
         <layers>
