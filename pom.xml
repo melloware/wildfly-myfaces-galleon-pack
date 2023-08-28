@@ -21,7 +21,7 @@
     </licenses>
 
     <properties>
-        <version.org.wildfly>28.0.1.Final</version.org.wildfly>
+        <version.org.wildfly>29.0.1.Final</version.org.wildfly>
         <version.org.wildfly.galleon-plugins>6.4.2.Final</version.org.wildfly.galleon-plugins>
         <version.org.apache.myfaces>4.0.1</version.org.apache.myfaces>
         <version.commons-digester>2.1</version.commons-digester>
